@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# --- EDIT IF NEEDED (defaults are your IDs from earlier) ---
-TENANT_ID="${TENANT_ID:-9f0a2bdb-5c4d-48b7-8920-33282bcf8055}"   # your tenantId == root MG id
-ME_OBJECT_ID="${ME_OBJECT_ID:-4a142662-a267-4976-a0d9-18558ab5e479}"  # your Entra user objectId
+TENANT_ID="9f0a2bdb-5c4d-48b7-8920-33282bcf8055"   # your tenantId == root MG id
+ME_OBJECT_ID="4a142662-a267-4976-a0d9-18558ab5e479"  # your Entra user objectId
 # -----------------------------------------------------------
 
 ROOT_SCOPE="/providers/Microsoft.Management/managementGroups/${TENANT_ID}"
